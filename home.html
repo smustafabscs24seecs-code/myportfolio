@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<!-- Specify a default language -->
+
+<html lang="en">
+
+<head>
+    <!-- Define the character set  -->
+    <meta charset="utf-8">
+    <!-- Set the title-->
+
+    <title>Portfolio - Siraj Mustafa</title>
+<style>.navigation {
+    list-style-type: none; 
+    padding: 0;
+    display: flex;        
+    gap: 15px;            
+}
+
+.navigation li a {
+    text-decoration: none;  
+    color: #2d3748;        
+    background-color: #edf2f7;
+    padding: 10px 20px;    
+    border-radius: 8px;    
+    font-weight: 600;
+    transition: all 0.3s ease; 
+    display: inline-block;
+}
+
+.navigation li a:hover {
+    background-color: #2d3748; 
+    color: white;              
+    transform: translateY(-2px); 
+}
+
+
+.navigation li.active a {
+    background-color: #4a5568; 
+    color: white;
+}</style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- 
+        Despite the addition of new
+        elements that justifably
+        captures a lot of DIV's territory,
+        you can still use them.
+     
+        The best practice is to use
+        DIVs when there is no other
+        more semantically appropiate
+        element that suits your
+        purpoe.
+    -->
+
+        <header>
+            <hgroup>
+                <h1>Siraj Mustafa</h1>
+                <h2>Computer Scientist</h2>
+            </hgroup>
+        </header>
+
+        <nav>
+            <ul class="navigation">
+
+                <!-- Link some other pages here -->
+                <!--
+            Suggestion: All text inside a HTML element should be lowercase to make it easier to read.
+        -->
+                <li class="active"><a href="home.html">Home</a></li>
+                <li><a href="hobies.html">Hobies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            <li> <a href="personalskills.html">Personal Skills</a></li>
+            <li> <a href="imagegallery.html">Image Gallery</a></li>
+            
+            </ul>
+        </nav>
+
+        <div class="main">
+
+            <section>
+                <hgroup>
+                    <h3 style="color: blue !important;">Personal Information</h3>
+                </hgroup>
+
+                <div align="center">
+                    <figure>
+                        <img src="oldme.png" widht="80px" height="80px" alt="image_older" />
+                        <figcaption>Fig1. - This is me from many years ago</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="newpic.jpg"  widht="80px" height="80px" alt="image_new" />
+                        <figcaption>Fig1. - This is me, a month ago</figcaption>
+                    </figure>
+
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <p>BSCS Student NUST-SEECS.</p>
+                        </li>
+                        <li>
+                            <p>Advanced Chess Player</p>
+                        </li>
+                    </ul>
+                </div>
+                <aside>
+                    <p>"BSCS Student & Top 0.2% Global Chess Player" I solve problems with the same precision I use to maintain a 2070 Chess.com rating (99.8th percentile globally). My approach to code is driven by strategic foresight and algorithmic efficiency. <a href="https://www.chess.com/member/Jarisman37">source</a>
+                </aside>
+            </section>
+            <hr/>
+            <section>
+                <hgroup>
+                    <h3>Education</h3>
+                </hgroup>
+
+                <ol>
+                    <li>
+                        <h3>F.Sc</h3>
+                        <p>GHSS Fazl-e-Umer</p>
+                    </li>
+                    <li>
+                        <h3>Bs CS</h3>
+                        <p>NUST, Pakistan</p>
+                    </li>
+                </ol>
+            </section>
+
+            <section>
+                <hgroup>
+                    <h3>Who am I?</h3>
+                </hgroup>
+                <p>I live to try new things, learn and get better!</p>
+                <p>I like coding and chess!!</p>
+            </section>
+
+            <hr/>
+<article>
+  <svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="50" cy="85" rx="30" ry="8" fill="#e2e8f0"/>
+    
+    <g fill="#2d3748">
+      <circle cx="50" cy="35" r="15" />
+      <rect x="40" cy="50" width="20" height="4" rx="2" />
+      <path d="M42 54 C35 70 30 80 25 82 H75 C70 80 65 70 58 54 H42 Z" />
+      <rect x="25" y="80" width="50" height="5" rx="2" />
+    </g>
+    
+    <path d="M45 30 A 5 5 0 0 1 50 25" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  </svg>
+</article>
+            <hr/>
+
+            <footer>What is the <time datetime="2023-02-09">date</time> today?</footer>
+<!-- The time tag is purely for semantic purposes only and is not shown on the front end. -->
+        </div>
+
+        <footer>Copyright @me.me</footer>
+
+    </div>
+</body>
+
+</html>

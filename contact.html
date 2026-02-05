@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<!-- Specify a default language -->
+
+<html lang="en">
+
+<head>
+    <!-- Define the character set  -->
+    <meta charset="utf-8">
+    <!-- Set the title-->
+
+    <title>Contact - Siraj Mustafa</title>
+<style>.navigation {
+    list-style-type: none;
+    padding: 0;
+    display: flex; 
+    gap: 15px;
+}
+
+.navigation li a {
+    text-decoration: none; 
+    color: #2d3748;
+    background-color: #edf2f7;
+    padding: 10px 20px;
+    border-radius: 8px; 
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.navigation li a:hover {
+    background-color: #2d3748; 
+    color: white;              
+    transform: translateY(-2px); 
+}
+
+
+.navigation li.active a {
+    background-color: #4a5568;
+    color: white;
+}</style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- 
+        Hobbies is spelled incorrectly in the first page nav menu.
+    -->
+
+        <header>
+            <hgroup>
+                <h1>Siraj Mustafa</h1>
+                <h2>Computer Scientist</h2>
+            </hgroup>
+        </header>
+
+        <nav>
+            <ul class="navigation">
+
+                <!-- Link some other pages here -->
+                
+                <li><a href="home.html">Home</a></li>
+                <li><a href="hobies.html">Hobies</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+                <li> <a href="personalskills.html">Personal Skills</a></li>
+                <li> <a href="imagegallery.html">Image Gallery</a></li>
+            </ul>
+        </nav>
+
+        <div class="main">
+
+            <section>
+                <hgroup>
+                    <h3 style="color: blue !important;">Contact</h3>
+                </hgroup>
+
+                <p>Email: smustafa.bscs24seecs@nust.edu.pk</p>
+                <p>Phone-1: 03360367746</p>
+                <p>Phone-2: 03401135306</p>
+
+            </section>
+        </div>
+
+        <footer>Copyright @me.me</footer>
+
+    </div>
+</body>
+
+</html>
